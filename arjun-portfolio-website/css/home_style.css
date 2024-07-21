@@ -1,0 +1,162 @@
+body {
+    /*color specifies font color*/
+    color: red;
+    background-color: #cde9ff;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+}
+
+
+/********************* Home Bar - Top Container **************************/
+
+.topcontainer {
+    background-color:transparent;
+    font-size: 1.2em;
+    margin: 2% auto 2% auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content:center;
+}
+
+.button {
+    margin: auto;
+}
+
+a{
+  color: rgb(8, 6, 6);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: #2800cc;
+}
+
+a:visited {
+  background-color: black;
+  color: none;
+}
+
+/********************** Body Image and Title - Middle Container ********************/
+
+.bgimg {
+    /*use media queries here*/
+    width: 60%;
+    height: 2%;
+    display: flex;
+    margin: 2% auto 2% auto;
+    flex-direction: row;
+    justify-content:center;
+    align-content:center;
+}
+
+.bgimg2 {
+    /*use media queries here*/
+    width: 20%;
+    height: 2%;
+    display: flex;
+    margin: 2% auto 2% auto;
+    flex-direction: row;
+    justify-content:right;
+    align-content:center;
+}
+
+.title {
+    font-size: 1.8em;
+    text-align: center;
+    color: #000000;
+    margin: 10% auto 1% auto;
+}
+
+.subtitle {
+    text-align: center;
+    color: #2800cc;
+    font-size: 1em;
+    margin: auto;
+}
+
+
+/******* Tech icons display box ******/
+
+.midcontainer {
+    
+
+    
+   
+    /*use media queries here*/
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    /*use media queries here*/
+    height: 100px;
+    width: 100px;
+    padding: 1%;
+}
+
+/************************** GIFs *************************/
+
+.infocontainers {
+    height: 40%;
+    width: 85%;
+    border: solid #2800cc;
+    padding: 5%;
+}
+.ibtitle {
+    font-size: 1.2em;
+    color: #ee0077;
+    display: inline-block;
+    margin: 10% auto 0 auto;
+}
+
+.ibsubtitle {
+    color: #2800cc;
+    font-size: 1.1em;
+    margin: 5% auto 0 auto;
+    letter-spacing: 2%;
+    display: inline-block;
+}
+
+.sp {
+    color: rgb(188, 122, 122);
+}
+
+p:hover {
+    color: rgb(61, 47, 246);
+}
+
+#codegif {
+    /* use media queries here*/
+    width:20em;
+    height:15em;
+    margin: 0 5% 0 5%;
+    padding: auto;
+    align-self: flex-start;
+}
+
+#rocketgif {
+    /* use media queries here*/
+    width:20em;
+    height:15em; 
+    margin: auto;
+    padding: auto;
+    align-self: flex-end;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10% auto auto auto;
+}
